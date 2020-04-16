@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html lang="nl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>SpaceX - API richting de Aarde</title>
+		<link rel="icon" href="afbeeldingen/icoon.png" type="image/x-icon"/>
+		<link rel="stylesheet" href="style/css.css" type="text/css"/>
+
+		<!-- WEER API -->
+		<script type="text/javascript" src="script/weer.js" defer></script>
+		
+		<!-- KATTEN API -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+	</head>
+	<body>
+		<header>
+			<p>ALERT: Terwijl je weg was hebben de katten de wereld over genomen. Om in veiligheid te blijven is het belangrijk om te landen op plekken waar het onder de 20 graden celsius is.</p>
+		</header>
+
+		<div class="flex-container">
+			<div class="container-weer">
+				<h3 class= "title-1">Bekijk het weer op jou landingsplaats</h3>
+				<div class="zoekveld">
+					<input type="text" id="cityName" placeholder="Typ hier je landingsplaats...">
+					<a href="#" id="btn-weergeven" onclick="getAPIdata()">Geef het weer weer!</a>
+				</div>
+
+
+				<div class="flex"> 
+					<section class="beschrijving-card">  
+						<div class="card">
+							<h3>Beschrijving</h3>
+							<div id="weatherDes"> - </div>
+						</div>
+					</section>
+
+
+					<section> 
+						<div class="card">
+							<h3>Temperatuur</h3>
+							<span class="ondertitel">Graden Celsius</span>
+							<div  id="weatherTemp">00.00 °C</div>
+						</div>
+					</section>
+
+					<section>
+						<div class="card">
+							<h3>Windsnelheid</h3>
+							<span class="ondertitel">Meter per sec.</span>
+							<div id="weatherWind">00.00 m/s</div>
+						</div>
+					</section>
+
+					<section class="luchtdruk-card">
+						<div class="card">
+							<h3>Luchtdruk</h3>
+							<span class="ondertitel">hectoPascal</span>
+							<div id="weatherPress">00.00 m/s</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="container-katten">
+				<h3 class= "title-2">Help mee deze monsters te bestrijden</h3>
+				<div class="background"></div>
+				<button id="change">Kssst ga weg!</button>
+				<script type="text/javascript" src="script/katten.js"></script>
+			</div>
+		</div>
+	</body>
+</html>
