@@ -1,6 +1,6 @@
 # ITS-richting-de-aarde
 
-https://anoukxjansma.github.io/ITS-richting-de-aarde/
+https://anoukxjansma.github.io/ITS-richting-de-aarde/index.html
 
 Voor deze challenge ben ik begonnen met het zoeken naar een eenvoudige API. Die van random kattenplaatjes bijvoorbeeld, op basis daarvan heb ik een passend concept gemaakt in combinatie met een weer API. Ik zal het niet onder stoelen en banken steken dat ik dit een erg moeilijke opdracht vond maar gelukkig heb ik hulp gekregen van wat klasgenoten en Google. Shout out to you!
 
