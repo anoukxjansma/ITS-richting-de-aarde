@@ -9,3 +9,5 @@ Deze challenge heb ik mezelf uitgedaagd om meer variatie aan te brengen bij vers
 Voor de kleur, typografie en achtergrond heb ik gekeken naar mijn uitvoeringen van de vorige challenges en deze opnieuw gebruikt. Op deze manier ontstaat er een eenheid waarmee alle 3 de challenges eventueel samen op een dashboard kunnen worden geplaatst. Omdat een alert belangrijk is heb ik deze een prominente plek en kleur gegeven. De felle rode kleur is duidelijk zichtbaar op de donkere achtergrond. Ook heb ik deze kleur doorgevoerd in de beschrijvingen van het weer, deze is op deze manier toch verbonden met de alert, het is belangrijk om in de gaten te houden of het 20 graden of hoger is. Alle letters zijn rond afgerond, om deze reden heb ik deze stijl doorgevoerd op de rest van de vormgeving door de border radius een waarde van 8px mee te geven. Ook op deze manier ontstaat er een eenheid in deze pagina
 
 Groetjes :)
+
+ps. surprise -> https://cdn2.thecatapi.com/images/584.gif
